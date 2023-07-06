@@ -1,0 +1,165 @@
+﻿@model IEnumerable<SEA_System.Models.Mesa>
+
+@{
+    ViewData["Title"] = "MesasContadas";
+}
+
+<h1>MesasContadas</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model._id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DEPARTAMENTO)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ID_DEPARTAMENTO)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MUNICIPIO)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ID_MUNICIPIO)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CENTRO_DE_VOTACION)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PADRON)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UNE)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AZUL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VALOR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CABAL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TODOS)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VAMOS)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PHG)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PIN)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ELEFANTE)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VICTORIA)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SEMILLA)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FCN)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PPN)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CONTABILIZADA)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CODIGO_INTEGRIDAD)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DIGITALIZACION)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item._id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DEPARTAMENTO)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ID_DEPARTAMENTO)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MUNICIPIO)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ID_MUNICIPIO)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CENTRO_DE_VOTACION)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PADRON)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UNE)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AZUL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VALOR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CABAL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TODOS)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VAMOS)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PHG)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PIN)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ELEFANTE)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VICTORIA)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SEMILLA)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FCN)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PPN)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CONTABILIZADA)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CODIGO_INTEGRIDAD)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DIGITALIZACION)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

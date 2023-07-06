@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Bienvenido al SEA</h1>
+    <h3> Sistema Electoral Automatizado</h3>
+    <form asp-action="Solicitud" asp-controller="History">
+        <select name = "id" asp-action="Solicitud" method="post" asp-controller="Home">
+            <option selected value="0">Elecciones 2023</option>
+            <input type="submit" value="Consultar" class="btn btn-primary" />
+        </select>
+    </form>
+</div>
