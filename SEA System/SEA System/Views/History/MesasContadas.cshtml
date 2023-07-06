@@ -1,7 +1,8 @@
 ﻿@model IEnumerable<SEA_System.Models.Mesa>
+@using SEA_System.Models;
 
 @{
-    ViewData["Title"] = "MesasContadas";
+    Mesas selectedmodel = ViewBag.selected;
 }
 
 <h1>MesasContadas</h1>
@@ -10,154 +11,154 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model._id)
+                @Html.DisplayNameFor(selectedmodel => selectedmodel._id)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.DEPARTAMENTO)
+                @Html.DisplayNameFor(selectedselectedmodel => selectedselectedmodel.DEPARTAMENTO)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.ID_DEPARTAMENTO)
+                @Html.DisplayNameFor(selectedmodel => selectedmodel.ID_DEPARTAMENTO)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.MUNICIPIO)
+                @Html.DisplayNameFor(selectedmodel => selectedmodel.MUNICIPIO)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.ID_MUNICIPIO)
+                @Html.DisplayNameFor(selectedmodel => selectedmodel.ID_MUNICIPIO)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.CENTRO_DE_VOTACION)
+                @Html.DisplayNameFor(selectedmodel => selectedmodel.CENTRO_DE_VOTACION)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.PADRON)
+                @Html.DisplayNameFor(selectedmodel => selectedmodel.PADRON)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.UNE)
+                @Html.DisplayNameFor(selectedmodel => selectedmodel.UNE)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.AZUL)
+                @Html.DisplayNameFor(selectedmodel => selectedmodel.AZUL)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.VALOR)
+                @Html.DisplayNameFor(selectedmodel => selectedmodel.VALOR)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.CABAL)
+                @Html.DisplayNameFor(selectedmodel => selectedmodel.CABAL)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.TODOS)
+                @Html.DisplayNameFor(selectedmodel => selectedmodel.TODOS)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.VAMOS)
+                @Html.DisplayNameFor(selectedmodel => selectedmodel.VAMOS)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.PHG)
+                @Html.DisplayNameFor(selectedmodel => selectedmodel.PHG)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.PR)
+                @Html.DisplayNameFor(selectedmodel => selectedmodel.PR)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.PIN)
+                @Html.DisplayNameFor(selectedmodel => selectedmodel.PIN)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.ELEFANTE)
+                @Html.DisplayNameFor(selectedmodel => selectedmodel.ELEFANTE)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.VICTORIA)
+                @Html.DisplayNameFor(selectedmodel => selectedmodel.VICTORIA)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.SEMILLA)
+                @Html.DisplayNameFor(selectedmodel => selectedmodel.SEMILLA)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.FCN)
+                @Html.DisplayNameFor(selectedmodel => selectedmodel.FCN)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.PPN)
+                @Html.DisplayNameFor(selectedmodel => selectedmodel.PPN)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.CONTABILIZADA)
+                @Html.DisplayNameFor(selectedmodel => selectedmodel.CONTABILIZADA)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.CODIGO_INTEGRIDAD)
+                @Html.DisplayNameFor(selectedmodel => selectedmodel.CODIGO_INTEGRIDAD)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.DIGITALIZACION)
+                @Html.DisplayNameFor(selectedmodel => selectedmodel.DIGITALIZACION)
             </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
+@foreach (var item in selectedmodel.mesas) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item._id)
+                @Html.DisplayFor(selectedmodelItem => item._id)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.DEPARTAMENTO)
+                @Html.DisplayFor(selectedmodelItem => item.DEPARTAMENTO)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.ID_DEPARTAMENTO)
+                @Html.DisplayFor(selectedmodelItem => item.ID_DEPARTAMENTO)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.MUNICIPIO)
+                @Html.DisplayFor(selectedmodelItem => item.MUNICIPIO)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.ID_MUNICIPIO)
+                @Html.DisplayFor(selectedmodelItem => item.ID_MUNICIPIO)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.CENTRO_DE_VOTACION)
+                @Html.DisplayFor(selectedmodelItem => item.CENTRO_DE_VOTACION)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.PADRON)
+                @Html.DisplayFor(selectedmodelItem => item.PADRON)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.UNE)
+                @Html.DisplayFor(selectedmodelItem => item.UNE)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.AZUL)
+                @Html.DisplayFor(selectedmodelItem => item.AZUL)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.VALOR)
+                @Html.DisplayFor(selectedmodelItem => item.VALOR)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.CABAL)
+                @Html.DisplayFor(selectedmodelItem => item.CABAL)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.TODOS)
+                @Html.DisplayFor(selectedmodelItem => item.TODOS)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.VAMOS)
+                @Html.DisplayFor(selectedmodelItem => item.VAMOS)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.PHG)
+                @Html.DisplayFor(selectedmodelItem => item.PHG)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.PR)
+                @Html.DisplayFor(selectedmodelItem => item.PR)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.PIN)
+                @Html.DisplayFor(selectedmodelItem => item.PIN)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.ELEFANTE)
+                @Html.DisplayFor(selectedmodelItem => item.ELEFANTE)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.VICTORIA)
+                @Html.DisplayFor(selectedmodelItem => item.VICTORIA)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.SEMILLA)
+                @Html.DisplayFor(selectedmodelItem => item.SEMILLA)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.FCN)
+                @Html.DisplayFor(selectedmodelItem => item.FCN)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.PPN)
+                @Html.DisplayFor(selectedmodelItem => item.PPN)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.CONTABILIZADA)
+                @Html.DisplayFor(selectedmodelItem => item.CONTABILIZADA)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.CODIGO_INTEGRIDAD)
+                @Html.DisplayFor(selectedmodelItem => item.CODIGO_INTEGRIDAD)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.DIGITALIZACION)
+                @Html.DisplayFor(selectedmodelItem => item.DIGITALIZACION)
             </td>
         </tr>
 }

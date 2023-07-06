@@ -45,3 +45,51 @@ D:\source\repos\Microservice API History\Microservice API History\bin\Debug\net6
 D:\source\repos\Microservice API History\Microservice API History\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
 D:\source\repos\Microservice API History\Microservice API History\bin\Debug\net6.0\SEA System.dll
 D:\source\repos\Microservice API History\Microservice API History\bin\Debug\net6.0\SEA System.pdb
+D:\GH\ProyectoAD2\Microservice API History\Microservice API History\bin\Debug\net6.0\appsettings.Development.json
+D:\GH\ProyectoAD2\Microservice API History\Microservice API History\bin\Debug\net6.0\appsettings.json
+D:\GH\ProyectoAD2\Microservice API History\Microservice API History\bin\Debug\net6.0\Microservice API History.exe
+D:\GH\ProyectoAD2\Microservice API History\Microservice API History\bin\Debug\net6.0\Microservice API History.deps.json
+D:\GH\ProyectoAD2\Microservice API History\Microservice API History\bin\Debug\net6.0\Microservice API History.runtimeconfig.json
+D:\GH\ProyectoAD2\Microservice API History\Microservice API History\bin\Debug\net6.0\Microservice API History.dll
+D:\GH\ProyectoAD2\Microservice API History\Microservice API History\bin\Debug\net6.0\Microservice API History.pdb
+D:\GH\ProyectoAD2\Microservice API History\Microservice API History\bin\Debug\net6.0\AWSSDK.Core.dll
+D:\GH\ProyectoAD2\Microservice API History\Microservice API History\bin\Debug\net6.0\AWSSDK.SecurityToken.dll
+D:\GH\ProyectoAD2\Microservice API History\Microservice API History\bin\Debug\net6.0\DnsClient.dll
+D:\GH\ProyectoAD2\Microservice API History\Microservice API History\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\GH\ProyectoAD2\Microservice API History\Microservice API History\bin\Debug\net6.0\MongoDB.Bson.dll
+D:\GH\ProyectoAD2\Microservice API History\Microservice API History\bin\Debug\net6.0\MongoDB.Driver.dll
+D:\GH\ProyectoAD2\Microservice API History\Microservice API History\bin\Debug\net6.0\MongoDB.Driver.Core.dll
+D:\GH\ProyectoAD2\Microservice API History\Microservice API History\bin\Debug\net6.0\MongoDB.Libmongocrypt.dll
+D:\GH\ProyectoAD2\Microservice API History\Microservice API History\bin\Debug\net6.0\SharpCompress.dll
+D:\GH\ProyectoAD2\Microservice API History\Microservice API History\bin\Debug\net6.0\Snappier.dll
+D:\GH\ProyectoAD2\Microservice API History\Microservice API History\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\GH\ProyectoAD2\Microservice API History\Microservice API History\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\GH\ProyectoAD2\Microservice API History\Microservice API History\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\GH\ProyectoAD2\Microservice API History\Microservice API History\bin\Debug\net6.0\ZstdSharp.dll
+D:\GH\ProyectoAD2\Microservice API History\Microservice API History\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
+D:\GH\ProyectoAD2\Microservice API History\Microservice API History\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
+D:\GH\ProyectoAD2\Microservice API History\Microservice API History\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
+D:\GH\ProyectoAD2\Microservice API History\Microservice API History\bin\Debug\net6.0\SEA System.dll
+D:\GH\ProyectoAD2\Microservice API History\Microservice API History\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\GH\ProyectoAD2\Microservice API History\Microservice API History\bin\Debug\net6.0\SEA System.pdb
+D:\GH\ProyectoAD2\Microservice API History\Microservice API History\obj\Debug\net6.0\Microservice API History.csproj.AssemblyReference.cache
+D:\GH\ProyectoAD2\Microservice API History\Microservice API History\obj\Debug\net6.0\Microservice API History.GeneratedMSBuildEditorConfig.editorconfig
+D:\GH\ProyectoAD2\Microservice API History\Microservice API History\obj\Debug\net6.0\Microservice API History.AssemblyInfoInputs.cache
+D:\GH\ProyectoAD2\Microservice API History\Microservice API History\obj\Debug\net6.0\Microservice API History.AssemblyInfo.cs
+D:\GH\ProyectoAD2\Microservice API History\Microservice API History\obj\Debug\net6.0\Microservice API History.csproj.CoreCompileInputs.cache
+D:\GH\ProyectoAD2\Microservice API History\Microservice API History\obj\Debug\net6.0\Microservice API History.MvcApplicationPartsAssemblyInfo.cs
+D:\GH\ProyectoAD2\Microservice API History\Microservice API History\obj\Debug\net6.0\Microservice API History.MvcApplicationPartsAssemblyInfo.cache
+D:\GH\ProyectoAD2\Microservice API History\Microservice API History\obj\Debug\net6.0\staticwebassets\msbuild.Microservice API History.Microsoft.AspNetCore.StaticWebAssets.props
+D:\GH\ProyectoAD2\Microservice API History\Microservice API History\obj\Debug\net6.0\staticwebassets\msbuild.build.Microservice API History.props
+D:\GH\ProyectoAD2\Microservice API History\Microservice API History\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Microservice API History.props
+D:\GH\ProyectoAD2\Microservice API History\Microservice API History\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Microservice API History.props
+D:\GH\ProyectoAD2\Microservice API History\Microservice API History\obj\Debug\net6.0\staticwebassets.pack.json
+D:\GH\ProyectoAD2\Microservice API History\Microservice API History\obj\Debug\net6.0\staticwebassets.build.json
+D:\GH\ProyectoAD2\Microservice API History\Microservice API History\obj\Debug\net6.0\staticwebassets.development.json
+D:\GH\ProyectoAD2\Microservice API History\Microservice API History\obj\Debug\net6.0\scopedcss\bundle\Microservice API History.styles.css
+D:\GH\ProyectoAD2\Microservice API History\Microservice API History\obj\Debug\net6.0\Microservice API History.csproj.CopyComplete
+D:\GH\ProyectoAD2\Microservice API History\Microservice API History\obj\Debug\net6.0\Microservice API History.dll
+D:\GH\ProyectoAD2\Microservice API History\Microservice API History\obj\Debug\net6.0\refint\Microservice API History.dll
+D:\GH\ProyectoAD2\Microservice API History\Microservice API History\obj\Debug\net6.0\Microservice API History.pdb
+D:\GH\ProyectoAD2\Microservice API History\Microservice API History\obj\Debug\net6.0\Microservice API History.genruntimeconfig.cache
+D:\GH\ProyectoAD2\Microservice API History\Microservice API History\obj\Debug\net6.0\ref\Microservice API History.dll

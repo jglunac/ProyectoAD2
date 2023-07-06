@@ -970,11 +970,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\source\\repos\\Microservice API History\\Microservice API History\\Microservice API History.csproj",
+      "projectUniqueName": "D:\\GH\\ProyectoAD2\\Microservice API History\\Microservice API History\\Microservice API History.csproj",
       "projectName": "Microservice API History",
-      "projectPath": "D:\\source\\repos\\Microservice API History\\Microservice API History\\Microservice API History.csproj",
+      "projectPath": "D:\\GH\\ProyectoAD2\\Microservice API History\\Microservice API History\\Microservice API History.csproj",
       "packagesPath": "C:\\Users\\jglun\\.nuget\\packages\\",
-      "outputPath": "D:\\source\\repos\\Microservice API History\\Microservice API History\\obj\\",
+      "outputPath": "D:\\GH\\ProyectoAD2\\Microservice API History\\Microservice API History\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jglun\\AppData\\Roaming\\NuGet\\NuGet.Config",

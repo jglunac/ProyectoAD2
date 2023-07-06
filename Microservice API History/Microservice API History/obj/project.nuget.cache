@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hYyRVM8Bxy0loG8f04NJ2ZLKtsevAWIyRsmXaV5ZxQoH8XgRSQNm8KSEgKYS2t8+Xtrz5c2z0R9NpKpkjRLTpw==",
+  "dgSpecHash": "X4x+D8ta7/mIl4EDAeTvKZFAVInynD26Sx45oAtgPEvGAsnMq/cdF6chddk1zhgQ375teLXG1O5M6huTfkQ/Uw==",
   "success": true,
-  "projectFilePath": "D:\\source\\repos\\Microservice API History\\Microservice API History\\Microservice API History.csproj",
+  "projectFilePath": "D:\\GH\\ProyectoAD2\\Microservice API History\\Microservice API History\\Microservice API History.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jglun\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\jglun\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",

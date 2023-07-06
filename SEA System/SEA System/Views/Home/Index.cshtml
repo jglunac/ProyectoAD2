@@ -5,9 +5,16 @@
 <div class="text-center">
     <h1 class="display-4">Bienvenido al SEA</h1>
     <h3> Sistema Electoral Automatizado</h3>
+    <br>
+    <hr>
     <form asp-action="Solicitud" asp-controller="History">
         <select name = "id" asp-action="Solicitud" method="post" asp-controller="Home">
             <option selected value="0">Elecciones 2023</option>
+            <option value="1">Elecciones 2023</option>
+            <option value="2">Elecciones 2019</option>
+            <option value="3">Elecciones 2015</option>
+            <option value="4">Elecciones 2011</option>
+            <option value="5">Elecciones 2007</option>
             <input type="submit" value="Consultar" class="btn btn-primary" />
         </select>
     </form>
