@@ -15,9 +15,8 @@ namespace Microservice_API_History.Controllers
     {
         const string connectionUri = "mongodb+srv://Admin:admin123@seahistory.onjfrar.mongodb.net/?retryWrites=true&w=majority";
 
-        [HttpGet]
         [Route("request2023")]
-
+        [HttpGet]
         public IActionResult History2023(int period)
         {
             MongoClient dbClient = new MongoClient(connectionUri);
@@ -44,9 +43,8 @@ namespace Microservice_API_History.Controllers
             }
         }
 
-        [HttpGet]
         [Route("request2019")]
-
+        
         public IActionResult History2019(int period)
         {
             MongoClient dbClient = new MongoClient(connectionUri);
@@ -73,7 +71,6 @@ namespace Microservice_API_History.Controllers
             }
         }
 
-        [HttpGet]
         [Route("request2023")]
 
         public IActionResult History2015(int period)
@@ -102,8 +99,7 @@ namespace Microservice_API_History.Controllers
             }
         }
 
-        [HttpGet]
-        [Route("request2023")]
+        [Route("request2023")]       
 
         public IActionResult History2011(int period)
         {
@@ -131,7 +127,6 @@ namespace Microservice_API_History.Controllers
             }
         }
 
-        [HttpGet]
         [Route("request2023")]
 
         public IActionResult History2007(int period)

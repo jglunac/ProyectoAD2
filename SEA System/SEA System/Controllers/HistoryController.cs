@@ -5,6 +5,7 @@ using System.Text.Json;
 using Microsoft.AspNetCore.DataProtection.KeyManagement;
 using System;
 using Newtonsoft.Json.Linq;
+using System.Runtime.InteropServices;
 
 namespace SEA_System.Controllers
 {
